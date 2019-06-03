@@ -10,3 +10,26 @@
 `ACCESS_TOKEN=abcdefghijklmnopqrstuvwxy`
 4. Run server
 `npm start`
+
+
+### twitch chat commands:
+* !raffle
+    Adds user to the raffle   
+
+* !unraffle
+    Removes user from the raffle
+
+
+### twitch chat events:
+* RESUBSCRIPTION
+    When a user renews their subscription
+* SUBSCRIPTION
+    When a user subscribes for the first time
+* SUBSCRIPTION_GIFT
+    When a user gets a gifted subscription
+* SUBSCRIPTION_GIFT_COMMUNITY
+    When a user gets a gifted subscription as a community gift
+
+### twitch webhook events:
+* FOLLOW
+    When a channel is being followed by a user
